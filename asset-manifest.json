@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/money-box/static/css/main.a46a0ab7.css",
+    "main.js": "/money-box/static/js/main.2abab63c.js",
+    "index.html": "/money-box/index.html",
+    "main.a46a0ab7.css.map": "/money-box/static/css/main.a46a0ab7.css.map",
+    "main.2abab63c.js.map": "/money-box/static/js/main.2abab63c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a46a0ab7.css",
+    "static/js/main.2abab63c.js"
+  ]
+}
