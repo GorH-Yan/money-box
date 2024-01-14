@@ -12,16 +12,24 @@ input::-webkit-inner-spin-button {
 }
 
 body {
-    background: #7F7FD5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #2193b0; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #6dd5ed,
+        #2193b0
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #6dd5ed,
+        #2193b0
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 1000%;
     overflow: hidden;
 }
 
 .allBox {
     position: relative;
-    top: 100px;
+    top: 60px;
     margin: 0 auto;
     width: 400px;
     text-align: center;
@@ -146,7 +154,7 @@ h3 {
     transition: 0.4s;
     padding: 85px 3px;
     text-align: center;
-    margin: 158px auto;
+    margin: 118px auto;
     display: grid;
     grid-template-rows: repeat(3, 100px);
 }
